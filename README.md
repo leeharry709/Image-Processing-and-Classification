@@ -2,7 +2,7 @@
 Processing and classifying images of mangos to determine if it is ripe or not ripe based on red-color distribution
 
 <p align="center">
-  <img src="https://github.com/leeharry709/about-me/blob/main/media/download.png?raw=true"><img src="https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true"><img src="https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true"><img src="https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true"><img src="https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true">
+  <img src="https://github.com/leeharry709/about-me-deprecated/blob/main/media/download.png?raw=true"><img src="https://github.com/leeharry709/about-me-deprecated/blob/main/media/download%20(1).png?raw=true"><img src="https://github.com/leeharry709/about-me-deprecated/blob/main/media/download%20(2).png?raw=true"><img src="https://github.com/leeharry709/about-me-deprecated/blob/main/media/download%20(3).png?raw=true"><img src="https://github.com/leeharry709/about-me-deprecated/blob/main/media/download%20(4).png?raw=true">
 </p>
 
 # Introduction
@@ -19,7 +19,7 @@ The major limiting factor is how much yellow is showing. For mangos, yellow can 
 I wanted to create a dataset that could alleviate my dataset issues from part 1, so I thought to generate images of mangos of different color distributions. For this part, I went with the theory that mangos that are at least 50% red are considered ripe regardless of yellow and green color distribution. Using this as my definition, I created a program that could take 1 image of a mango and make X number of images with incrementally smaller amounts of red-color distribution. Since the only color I really needed was red, I calculated the Euclidian distance from the color red (RGB: 255, 0, 0) and incrementally blacked-out the colors farthest from red.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/leeharry709/about-me/main/media/download%20(5).png">
+<img src="https://raw.githubusercontent.com/leeharry709/about-me-deprecated/main/media/download%20(5).png">
 <br>Distribution of Euclidian distance (excluding pure-white pixels) in input image
 </p>
 
